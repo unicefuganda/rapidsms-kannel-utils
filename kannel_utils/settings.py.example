@@ -1,0 +1,13 @@
+KANNEL_RESTART="http://kannelserver/restart?username=user&password=pass"
+
+KANNEL_STATUS="http://kannel-server/status.xml"
+
+
+#smsc admins  to be notified when the link goes down
+SMSC_ADMINS=\
+{
+    #'smsc1':['foo@bar.com'],
+    #'smsc2':['foo2@bar2.com']
+}
+
+RECEPIENTS=['aragon@middleearth.com','frodo@shire.sr','sauron@mordor.mo']
